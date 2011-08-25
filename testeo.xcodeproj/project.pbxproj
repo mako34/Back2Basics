@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F84793914061DA3009977E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84793814061DA3009977E0 /* UIKit.framework */; };
+		9F84793B14061DA3009977E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84793A14061DA3009977E0 /* Foundation.framework */; };
+		9F84793D14061DA3009977E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F84793C14061DA3009977E0 /* CoreGraphics.framework */; };
+		9F84794314061DA3009977E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F84794114061DA3009977E0 /* InfoPlist.strings */; };
+		9F84794514061DA3009977E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84794414061DA3009977E0 /* main.m */; };
+		9F84794914061DA3009977E0 /* testeoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84794814061DA3009977E0 /* testeoAppDelegate.m */; };
+		9F84794C14061DA3009977E0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F84794A14061DA3009977E0 /* MainWindow.xib */; };
+		9F84795414061DCE009977E0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84795314061DCE009977E0 /* MainViewController.m */; };
+		9F84795C14062477009977E0 /* MyClassic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F84795B14062477009977E0 /* MyClassic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F84793414061DA3009977E0 /* testeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F84793814061DA3009977E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F84793A14061DA3009977E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F84793C14061DA3009977E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F84794014061DA3009977E0 /* testeo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testeo-Info.plist"; sourceTree = "<group>"; };
+		9F84794214061DA3009977E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F84794414061DA3009977E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F84794614061DA3009977E0 /* testeo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testeo-Prefix.pch"; sourceTree = "<group>"; };
+		9F84794714061DA3009977E0 /* testeoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testeoAppDelegate.h; sourceTree = "<group>"; };
+		9F84794814061DA3009977E0 /* testeoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testeoAppDelegate.m; sourceTree = "<group>"; };
+		9F84794B14061DA3009977E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9F84795214061DCE009977E0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9F84795314061DCE009977E0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9F84795A14062477009977E0 /* MyClassic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClassic.h; sourceTree = "<group>"; };
+		9F84795B14062477009977E0 /* MyClassic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClassic.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F84793114061DA3009977E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84793914061DA3009977E0 /* UIKit.framework in Frameworks */,
+				9F84793B14061DA3009977E0 /* Foundation.framework in Frameworks */,
+				9F84793D14061DA3009977E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F84792914061DA2009977E0 = {
+			isa = PBXGroup;
+			children = (
+				9F84793E14061DA3009977E0 /* testeo */,
+				9F84793714061DA3009977E0 /* Frameworks */,
+				9F84793514061DA3009977E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F84793514061DA3009977E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F84793414061DA3009977E0 /* testeo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F84793714061DA3009977E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F84793814061DA3009977E0 /* UIKit.framework */,
+				9F84793A14061DA3009977E0 /* Foundation.framework */,
+				9F84793C14061DA3009977E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F84793E14061DA3009977E0 /* testeo */ = {
+			isa = PBXGroup;
+			children = (
+				9F84794714061DA3009977E0 /* testeoAppDelegate.h */,
+				9F84794814061DA3009977E0 /* testeoAppDelegate.m */,
+				9F84795214061DCE009977E0 /* MainViewController.h */,
+				9F84795314061DCE009977E0 /* MainViewController.m */,
+				9F84795A14062477009977E0 /* MyClassic.h */,
+				9F84795B14062477009977E0 /* MyClassic.m */,
+				9F84794A14061DA3009977E0 /* MainWindow.xib */,
+				9F84793F14061DA3009977E0 /* Supporting Files */,
+			);
+			path = testeo;
+			sourceTree = "<group>";
+		};
+		9F84793F14061DA3009977E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F84794014061DA3009977E0 /* testeo-Info.plist */,
+				9F84794114061DA3009977E0 /* InfoPlist.strings */,
+				9F84794414061DA3009977E0 /* main.m */,
+				9F84794614061DA3009977E0 /* testeo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F84793314061DA3009977E0 /* testeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F84794F14061DA3009977E0 /* Build configuration list for PBXNativeTarget "testeo" */;
+			buildPhases = (
+				9F84793014061DA3009977E0 /* Sources */,
+				9F84793114061DA3009977E0 /* Frameworks */,
+				9F84793214061DA3009977E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testeo;
+			productName = testeo;
+			productReference = 9F84793414061DA3009977E0 /* testeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F84792B14061DA2009977E0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9F84792E14061DA2009977E0 /* Build configuration list for PBXProject "testeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F84792914061DA2009977E0;
+			productRefGroup = 9F84793514061DA3009977E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F84793314061DA3009977E0 /* testeo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F84793214061DA3009977E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84794314061DA3009977E0 /* InfoPlist.strings in Resources */,
+				9F84794C14061DA3009977E0 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F84793014061DA3009977E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84794514061DA3009977E0 /* main.m in Sources */,
+				9F84794914061DA3009977E0 /* testeoAppDelegate.m in Sources */,
+				9F84795414061DCE009977E0 /* MainViewController.m in Sources */,
+				9F84795C14062477009977E0 /* MyClassic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F84794114061DA3009977E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F84794214061DA3009977E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F84794A14061DA3009977E0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F84794B14061DA3009977E0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F84794D14061DA3009977E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F84794E14061DA3009977E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F84795014061DA3009977E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testeo/testeo-Prefix.pch";
+				INFOPLIST_FILE = "testeo/testeo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F84795114061DA3009977E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testeo/testeo-Prefix.pch";
+				INFOPLIST_FILE = "testeo/testeo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F84792E14061DA2009977E0 /* Build configuration list for PBXProject "testeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F84794D14061DA3009977E0 /* Debug */,
+				9F84794E14061DA3009977E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F84794F14061DA3009977E0 /* Build configuration list for PBXNativeTarget "testeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F84795014061DA3009977E0 /* Debug */,
+				9F84795114061DA3009977E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F84792B14061DA2009977E0 /* Project object */;
+}
