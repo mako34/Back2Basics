@@ -34,15 +34,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    /*
-    UILabel *labelA = [[[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 20)]autorelease];
     
-     labelA.text = @"mk ss9";
-    */
+  
+    
     
     self.view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
 	self.view.backgroundColor = [UIColor grayColor];
 
+    
+    UILabel *labelA = [[[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 20)]autorelease];
+    
+    labelA.text = @"mk ss9";
+    
+    [self.view addSubview:labelA];
+    
+    
+    //messaging to class
     [MyClassic pongalo];
     
     int i = [MyClassic numero];
