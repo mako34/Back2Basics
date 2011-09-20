@@ -16,10 +16,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+     
+ 
+    //nav bar
     
-    MainViewController *viewController = [MainViewController alloc];
-    [self.window addSubview:viewController.view];
+    UIViewController *viewController = [[MainViewController alloc] init];
+
+    navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    [viewController release];
+    
+    [self.window addSubview:navigationController.view];
+    
+    
+    //normal:
+    //MainViewController *viewController = [MainViewController alloc];
+    //[self.window addSubview:viewController.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

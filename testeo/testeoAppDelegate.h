@@ -15,6 +15,7 @@
     UIWindow *window;
     //UIViewController *_mainViewController;
     
+    UINavigationController *navigationController;
 
 }
 

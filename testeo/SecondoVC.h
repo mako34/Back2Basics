@@ -1,16 +1,18 @@
 //
-//  MainViewController.h
+//  SecondoVC.h
 //  testeo
 //
-//  Created by  on 25/08/11.
+//  Created by  on 20/09/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface SecondoVC : UIViewController {
+    
+    
+}
 
 -(void) navTitle;
-
 
 @end

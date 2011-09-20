@@ -1,6 +1,7 @@
 Project with all the basic stuff to work programatically in iOS
 
-no Interface builder,
+no Interface builder, all done programatically, 
+learning !, 
 
 included:
 
@@ -8,9 +9,9 @@ Messaging
 
 UI
 * label
-* textField
-* table
-
+* Button
+* navigationController
+* image in navBar
 
 by MK
 

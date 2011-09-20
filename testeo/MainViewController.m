@@ -8,6 +8,16 @@
 
 #import "MainViewController.h"
 #import "MyClassic.h"
+#import "SecondoVC.h"
+
+//categorie!! adendo de metodo a UINavigationBar!!!
+@implementation UINavigationBar (CustomImage)
+- (void)drawRect:(CGRect)rect {
+    UIImage *image = [UIImage imageNamed: @"fondo.png"];
+    [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+}
+@end
+
 
 @implementation MainViewController
 
@@ -36,6 +46,7 @@
     [super viewDidLoad];
     
   
+    [self navTitle];
     
     
     self.view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
@@ -63,8 +74,41 @@
     NSLog(@"suma = %d",y);
     
     
+    //el boton
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button addTarget:self 
+               action:@selector(aMethod:)
+     forControlEvents:UIControlEventTouchDown];
+    [button setTitle:@"Pa Secondo" forState:UIControlStateNormal];
+    button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
+    [self.view addSubview:button];
+
 }
 
+-(void) navTitle {
+    
+    self.title = @"SS9";
+
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 400, 44)];
+    label.backgroundColor = [UIColor clearColor];
+    label.font = [UIFont boldSystemFontOfSize:20.0];
+    label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
+    label.textAlignment = UITextAlignmentCenter;
+    label.textColor =[UIColor blueColor];
+    //label.text=@"Mk";  
+
+    label.text=self.title;  
+    self.navigationItem.titleView = label;      
+    [label release];
+    
+
+}
+
+-(IBAction)aMethod:(id)sender {
+    NSLog(@"sumbalo");
+    SecondoVC *secVC = [[[SecondoVC alloc]init] autorelease];
+    [self.navigationController pushViewController:secVC animated:YES];
+}
 
 - (void)viewDidUnload
 {
